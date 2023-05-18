@@ -6,6 +6,8 @@ import tkinter as tk
 import time
 from tkinter import filedialog
 
+# These are all the Libraries used by the Malware Code that will be imported to the Obfuscated/Newly Created Code/Executable
+# These will be written to the created .py file before compiling (to avoid linker errors)
 libraries = '''
 import os, re, subprocess
 from Crypto.Cipher import AES
