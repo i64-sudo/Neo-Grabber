@@ -1,0 +1,5 @@
+PyCryptodome
+discord
+pypiwin32
+psutil
+Pillow
